@@ -44,6 +44,7 @@ There are 3 simple (😜) steps to setting up this plugin.
         - You can also find this folder from Settings (shortcut : cmd + ,)  
         - open the terminal at this folder
         - git clone [repo](https://github.com/ngacho/obsidian-ai-assistant)
+        - `cd obsidian-ai-assistant`
         - run `npm i && npm audit fix`
         - run `npm run build`
         - update the url of the post request to the local server where your model is listening from. so for instance mine is running on `http://localhost:8000/v1/completions`
